@@ -1,0 +1,103 @@
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@400;700&display=swap");
+/* * {
+  background-color: white;
+} */
+.main-container {
+  background-color: white;
+  justify-content: center;
+  padding: 100px;
+  padding-left: 350px;
+  padding-right: 350px;
+  display: flex;
+  /* flex-direction: row; */
+  /* height: 50vh; */
+  font-size: 15px;
+  font-family: "Big Shoulders Display", cursive;
+}
+h1 {
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  text-transform: uppercase;
+}
+p {
+  color: hsl(0, 0%, 95%);
+  /* line-height: 30px; */
+  padding-bottom: 30px;
+  line-height: 30px;
+  /* font-weight: 100; */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+  /* letter-spacing: 1.5px; */
+}
+.first {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: hsl(31, 77%, 52%);
+  padding: 50px;
+}
+.first button {
+  color: white;
+  background-color: hsl(31, 77%, 52%);
+}
+.first button:hover {
+  background-color: white;
+  color: hsl(31, 77%, 52%);
+  cursor: pointer;
+}
+.second {
+  background-color: hsl(184, 100%, 22%);
+  padding: 50px;
+}
+.second button {
+  color: white;
+  background-color: hsl(184, 100%, 22%);
+  margin-top: 30px;
+}
+.second button:hover {
+  color: hsl(184, 100%, 22%);
+  background-color: white;
+  cursor: pointer;
+}
+.third {
+  background-color: hsl(179, 100%, 13%);
+  padding: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.third button {
+  color: white;
+  background-color: hsl(179, 100%, 13%);
+}
+.third button:hover {
+  background-color: white;
+  color: hsl(179, 100%, 13%);
+  cursor: pointer;
+}
+button {
+  /* border: none; */
+  padding: 10px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  /* border: none; */
+  border-color: white;
+}
+
+
+@media (max-width: 375px)
+{
+  .main-container
+  {
+    flex-direction: column;
+    padding: 10px;
+  }
+}
